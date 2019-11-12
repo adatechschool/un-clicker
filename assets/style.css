@@ -1,4 +1,84 @@
-body
+/*font-family: 'Wallpoet', cursive;
+font-family: 'Righteous', cursive;
+font-family: 'ZCOOL QingKe HuangYou', cursive;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Luckiest Guy', cursive;*/
+* 
 {
-    background : blue;
+    --rose1 : #E674A4;
+    --rose2 : #D6407F;
+    --rose3 : #C40E5B;
+    --rose4 : #91033E;
+    --rose5 : #5D0027;
+
+    --bleu1 : #699BC4;
+    --bleu2 : #3872A2;
+    --bleu3 : #145A94;
+    --bleu4 : #09406E;
+    --bleu5 : #032847;
+
+    --jaune1 : #FFE980;
+    --jaune2 : #FADC4A;
+    --jaune3 : #E5C111;
+    --jaune4 : #AA8D03;
+    --jaune5 : #6D5B00;
+
+    margin      : 0;
+    padding     : 0;
+    font-family : 'ZCOOL QingKe HuangYou', cursive;
+    
 }
+main
+{
+    background-color: var(--jaune3);
+    display: flex;
+    flex-direction:column;
+}
+#attac
+{
+    font-family: 'Wallpoet', cursive;
+    font-size: 16px;
+    margin: 0 20%;
+    margin-top:20px;
+    padding: 20px;
+    background-color: var(--rose3);
+    color : var(--bleu5);
+}
+#dollar
+{
+    text-align:center;
+    margin-top: 20px;
+    font-size:40px;
+}
+#reste
+{
+    font-family: 'Wallpoet', cursive;
+    margin-top:20px;
+    text-align:center;
+}
+header
+{
+    background-color: var(--bleu2) !important; 
+    border      : 4px solid var(--bleu3);
+    font-size: 30px;
+    height      : 100px; 
+    line-height : 100px;
+    color       :var(--rose2);
+}
+
+#fist
+{
+    max-width:20%;
+    height:auto;
+    margin-left:26%;
+    margin-top: 5%;
+    position:fixed-to-bottom;
+}
+
+header > h1
+{
+    text-align  : center;
+}
+
+
+
