@@ -79,3 +79,29 @@ main
     margin-top:20px;
     text-align:center;
 }
+<<<<<<< HEAD
+=======
+header
+{
+    background-color: var(--bleu2) !important; 
+    border      : 4px solid var(--bleu3);
+    font-size: 30px;
+    height      : 100px; 
+    line-height : 100px;
+    color       :var(--rose2);
+}
+
+#fist
+{
+    max-width:20%;
+    height:auto;
+    margin-left:26%;
+    margin-top: 5%;
+    position:fixed-to-bottom;
+}
+
+header > h1
+{
+    text-align  : center;
+}
+>>>>>>> 78a36c71aacf1fee9ceac2027a3376f505f7d2c7
