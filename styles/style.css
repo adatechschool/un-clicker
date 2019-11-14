@@ -29,34 +29,41 @@ font-family: 'Luckiest Guy', cursive;*/
     text-align  : center;
     
 }
+
 main
 {
     background-color: var(--jaune3);
     display: flex;
     flex-direction:column;
 }
+
 .top
 {
+    text-align:center;
     display:flex;
     flex-direction:row;
     min-height: 400px;
 }
+
 .bottom
 {
     display: flex;
     flex-direction: row;
     min-height: 400px;
 }
+
 .left
 {
     width:50%;
     background-color: var(--bleu2);
 }
+
 .right
 {
     width:50%;
     background-color: var(--rose2);
 }
+
 #attac
 {
     background-image:url("../images/monopoly.png");
@@ -69,15 +76,23 @@ main
     padding: 20px;
     background-color: var(--rose3);
 }
+
 #dollar
 {
     text-align:center;
     margin-top: 20px;
     font-size:40px;
 }
+
 #reste
 {
     font-family: 'ZCOOL QingKe HuangYou', cursive;
     margin-top:20px;
     text-align:center;
+}
+
+.container
+{
+    display : flex;
+    flex-direction: column;
 }

@@ -14,7 +14,7 @@ function attac(event)
   showDollars.innerHTML = currentValue
 }
 
-setInterval("stackmoney()")
+setInterval("stackmoney()", 300)
 
 function stackmoney() 
 { 
