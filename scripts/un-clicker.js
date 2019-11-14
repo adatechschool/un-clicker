@@ -5,14 +5,14 @@ let actions = document.getElementById("actions");
 let upgrade = [
   {
     name: "Enceinte",
-    description: "Une enceinte pour emmerder les vieilles dans le métro.",
+    description: "Une enceinte pour emmerder les vieilles 7ème.",
     level: 50
   },
   {
     name: "Lycéen",
     description: "Un jeune mal dans sa peau aisément manipulable.",
     level: 70
-  },
+  }
 ];
 
 let currentValue = 10e5;
@@ -34,20 +34,16 @@ setInterval("stackmoney()", 300);
 
 function stackmoney() 
 { 
-  showDollars.innerText = currentValue++;
+  currentValue++;
+  showDollars.innerText = currentValue;
 }
 
 function espoir() 
 {
-  showHope.innerText = hope++;
+  hope++;
+  showHope.innerText = hope;
   if (hope == 15)
-    enceinte();
-}
-
-function enceinte()
-{
-  let newdiv = document.createElement('div')
-    newdiv.innerText = "Récupérer une enceinte pour faire chier les vieilles du 7eme" 
-    newdiv.classList.add("boutonAction")
-    actions.appendChild(newdiv)
+    new SkillGetter("test", "cool ça marche. Si je vois pas ça marche pas.", 1);
+  if (hope == 30)
+    new SkillGetter("super chouette", "C’est aussi con que ça");
 }
