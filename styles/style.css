@@ -77,22 +77,21 @@ a:hover, a:visited, a, a:
 
 #attac
 {
-    background-image:url("../images/monopoly.png");
-    background-repeat:no-repeat;
-    background-size: 80%;
-    background-position:center;
-    width: 33.3%;
-    margin: 0 auto;
-    margin-top:20px;
-    padding: 20px;
-    background-color: var(--rose3);
+    height: 95%;
+    margin: auto;
+}
+
+#attac:active
+{
+    height: 90%;
+    margin: auto;
 }
 
 #dollar
 {
-    text-align:center;
+    text-align: center;
     margin-top: 20px;
-    font-size:40px;
+    font-size: 40px;
 }
 
 #reste
