@@ -43,11 +43,6 @@ main
     flex-direction:column;
 }
 
-a:hover, a:visited, a, a:
-{
-
-}
-
 .top
 {
     text-align:center;
@@ -105,4 +100,28 @@ a:hover, a:visited, a, a:
 {
     display : flex;
     flex-direction: column;
+}
+
+.boutonAction
+{
+    font-size : 25px;
+    margin-top: 5px;
+    padding: 10px;
+    border : 5px solid var(--rose1);
+    background-color: var(--bleu1);
+    color : var(--rose5);
+}
+
+.boutonAction:hover
+{
+    border:5px solid var(--rose3);
+    background-color: var(--bleu3);
+    color: var(--rose2);
+}
+
+.boutonAction:active
+{
+    border:5px solid var(--bleu3);
+    background-color: var(--rose3);
+    color: var(--bleu1);
 }

@@ -40,7 +40,7 @@ function stackmoney()
 function espoir() 
 {
   showHope.innerText = hope++;
-  if (hope == 150)
+  if (hope == 15)
     enceinte();
 }
 
