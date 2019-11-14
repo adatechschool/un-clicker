@@ -19,7 +19,6 @@ setInterval("stackmoney()", 300)
 
 function stackmoney() 
 { 
-  showDollars.style.fontSize = "40px"
   showDollars.innerHTML = currentValue++
 }
 
