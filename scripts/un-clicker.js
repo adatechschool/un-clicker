@@ -2,19 +2,6 @@ let bouton = document.getElementById("attac");
 let showDollars = document.getElementById("dollar");
 let showHope = document.getElementById("hope");
 let actions = document.getElementById("actions");
-let upgrade = [
-  {
-    name: "Enceinte",
-    description: "Une enceinte pour emmerder les vieilles 7ème.",
-    level: 50
-  },
-  {
-    name: "Lycéen",
-    description: "Un jeune mal dans sa peau aisément manipulable.",
-    level: 70
-  }
-];
-
 let currentValue = 10e5;
 let hope = 0;
 
