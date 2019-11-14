@@ -1,9 +1,9 @@
-var bouton = document.getElementById("attac");
-var showDollars = document.getElementById("dollar");
-var showHope = document.getElementById("hope");
-var actions = document.getElementById("actions");
-var upgrade = [
-    {
+let bouton = document.getElementById("attac");
+let showDollars = document.getElementById("dollar");
+let showHope = document.getElementById("hope");
+let actions = document.getElementById("actions");
+let upgrade = [
+  {
     name: "Enceinte",
     description: "Une enceinte pour emmerder les vieilles dans le métro.",
     level: 50
@@ -15,8 +15,8 @@ var upgrade = [
   },
 ];
 
-var currentValue = 10e5;
-var hope = 0;
+let currentValue = 10e5;
+let hope = 0;
 
 showHope.innerText = hope;
 showDollars.innerText = currentValue;
@@ -46,7 +46,7 @@ function espoir()
 
 function enceinte()
 {
-    var newdiv = document.createElement('div')
+  let newdiv = document.createElement('div')
     newdiv.innerText = "Récupérer une enceinte pour faire chier les vieilles du 7eme" 
     newdiv.classList.add("boutonAction")
     actions.appendChild(newdiv)
