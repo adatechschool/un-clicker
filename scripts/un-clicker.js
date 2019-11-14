@@ -19,10 +19,10 @@ setInterval("stackmoney()", 300)
 
 function stackmoney() 
 { 
-  showDollars.innerHTML = currentValue++
+  showDollars.innerText = currentValue++
 }
 
 function espoir(event) 
 {
-  showHope.innerHTML = hope++
+  showHope.innerText = hope++
 }
