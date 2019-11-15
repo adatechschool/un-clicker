@@ -30,7 +30,7 @@ function espoir()
   hope++;
   showHope.innerText = hope;
   if (hope == 15)
-    new SkillGetter("test", "cool ça marche. Si je vois pas ça marche pas.", 1);
+    new SkillGetter("boombox", "Une boombox pour faire raler les mamies du 7eme", 1);
   if (hope == 30)
-    new SkillGetter("super chouette", "C’est aussi con que ça");
+    new SkillGetter("lyceen", "Un lycéen naïf et stupide, la recrue parfaite", 2);
 }
