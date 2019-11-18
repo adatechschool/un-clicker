@@ -3,7 +3,7 @@ class SkillGetter {
     this.name = name;
     this.description = description;
     this.beforeNextUpgrade = 50;
-	this.image = image;
+    this.image = image;
 
     let skillElement = document.createElement("div")
     skillElement.addEventListener("click", function () {
